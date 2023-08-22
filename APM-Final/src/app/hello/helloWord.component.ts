@@ -7,7 +7,6 @@ import { StudyEnglishComponent} from "../study/study.english.component";
     selector:'hello-word',
     template:'<div class="hello" style="font:200px">hello world</div>',
     styleUrls:['./helloWord.component.css'],
-    providers:[StudyEnglishComponent]
 })
 export class HelloComponent{
 

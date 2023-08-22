@@ -2,7 +2,7 @@ import {Component,Injectable} from "@angular/core";
 
 
 @Component({"template":"<div>I love studying</div>"})
-@Injectable()
+@Injectable({providedIn:"root"})
 export class StudyEnglishComponent{
 
    
